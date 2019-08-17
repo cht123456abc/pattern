@@ -1,4 +1,4 @@
-package FlyWeight;
+package flyweight;
 
 /**
  * 享元类

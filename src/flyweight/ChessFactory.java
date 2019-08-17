@@ -1,4 +1,4 @@
-package FlyWeight;
+package flyweight;
 
 import java.util.HashMap;
 import java.util.Map;

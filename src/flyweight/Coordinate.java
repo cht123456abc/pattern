@@ -1,4 +1,4 @@
-package FlyWeight;
+package flyweight;
 
 /**
  * 非共享类

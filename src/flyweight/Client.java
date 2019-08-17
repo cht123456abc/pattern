@@ -1,4 +1,4 @@
-package FlyWeight;
+package flyweight;
 
 public class Client {
     public static void main(String[] args) {
