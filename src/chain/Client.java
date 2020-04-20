@@ -9,7 +9,7 @@ public class Client {
         a.setNextLeader(b);
         b.setNextLeader(c);
 
-        LeaveRequest leaveRequest = new LeaveRequest("TOM", 10, "探亲");
+        LeaveRequest leaveRequest = new LeaveRequest("TOM", 5, "探亲");
         a.handleRequest(leaveRequest);
 
     }

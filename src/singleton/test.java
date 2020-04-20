@@ -10,11 +10,11 @@ public class test {
 		long start = System.currentTimeMillis();
 		pool.submit(() -> {
 			for (int j = 0; j < 100000; j++) {
-				StaticInnerClassSingleton singleton = StaticInnerClassSingleton.getInstance();
+//				StaticInnerClassSingleton singleton = StaticInnerClassSingleton.getInstance();
 //				DoubleLockSingleton singleton = DoubleLockSingleton.getInstance();
 //				HungrySingleton singleton = HungrySingleton.getInstance();
 //				LazySingleton singleton = LazySingleton.getInstance();
-//				EnumSingleton singleton = EnumSingleton.singleton;
+				EnumSingleton singleton = EnumSingleton.singleton;
 				System.out.println(Thread.currentThread().getName() + ":" + singleton);
 			}
 		});

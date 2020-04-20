@@ -1,6 +1,6 @@
 package builder;
 
-public abstract class Client {
+public class Client {
     public static void main(String[] args) {
         AirShipDirector director = new SxtAirShipDirector(new SxtAirShipBuilder());
 
